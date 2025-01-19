@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.5dkGfe6-AJxestmhWDhmYAHaEJ?w=626&h=351&rs=1&pid=ImgDetMain");
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    }
+    
+    #parrafo {
+    color: #000000;
+    font-size: 35px;
+    animation: resaltarNoResaltar 5s infinite;
+    }
+
+    @keyframes resaltarNoResaltar {
+        0%, 100% { color: #0e2a3d; }
+        50% { color: #42130e; }
+    }
